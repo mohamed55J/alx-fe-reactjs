@@ -1,20 +1,19 @@
+import React from "react";
+
 function MainContent() {
-  const mainStyle = {
-    backgroundColor: "#f0f8ff",
-    padding: "20px",
-    textAlign: "center",
-    borderRadius: "8px",
-    marginTop: "15px"
-  };
-
-  const textStyle = {
-    fontSize: "18px",
-    color: "#333"
-  };
-
   return (
-    <main style={mainStyle}>
-      <p style={textStyle}>I love to visit New York, Paris, and Tokyo.</p>
+    <main
+      style={{
+        padding: "20px",
+        backgroundColor: "#f4f4f4",
+        textAlign: "center",
+        minHeight: "200px",
+      }}
+    >
+      <h2>Welcome to My React App</h2>
+      <p>
+        This is the main content section where we can add articles, posts, or information.
+      </p>
     </main>
   );
 }
