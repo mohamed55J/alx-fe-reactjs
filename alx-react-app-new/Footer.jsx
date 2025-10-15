@@ -1,16 +1,19 @@
-function Footer() {
-  const footerStyle = {
-    backgroundColor: "#023e8a",
-    color: "white",
-    textAlign: "center",
-    padding: "10px",
-    marginTop: "20px",
-    borderRadius: "8px"
-  };
+import React from "react";
 
+function Footer() {
   return (
-    <footer style={footerStyle}>
-      <p>2023 City Lovers</p>
+    <footer
+      style={{
+        backgroundColor: "navy",
+        color: "white",
+        textAlign: "center",
+        padding: "10px",
+        position: "fixed",
+        bottom: 0,
+        width: "100%",
+      }}
+    >
+      <p>&copy; 2025 My React App | All Rights Reserved</p>
     </footer>
   );
 }
