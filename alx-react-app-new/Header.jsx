@@ -1,14 +1,15 @@
-function Header() {
-  const headerStyle = {
-    backgroundColor: "#0077b6",
-    color: "white",
-    padding: "15px",
-    textAlign: "center",
-    borderRadius: "8px"
-  };
+import React from "react";
 
+function Header() {
   return (
-    <header style={headerStyle}>
+    <header
+      style={{
+        backgroundColor: "navy",
+        color: "white",
+        textAlign: "center",
+        padding: "15px",
+      }}
+    >
       <h1>My Favorite Cities</h1>
     </header>
   );
